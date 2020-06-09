@@ -1,0 +1,22 @@
+1.大多数函数返回值均采用Boolean，返回ture即为成功，返回false即为不合法或失败
+2.NumberCheck.isNumeric(String str)
+	返回1 代表str不是数字
+	返回2 代表str是负数
+	返回0 代表str是正数
+3.CourseList.modifyCourseName(String cid, String name)
+	返回1 代表课程不存在
+	返回2 代表课程名不合法
+	返回0 代表修改课程名成功
+4.CourseList.modifyCourseCapacity(String cid, String capacity)
+	返回1 代表课程不存在
+	返回2 代表课程容量为负数
+	返回3 代表课程容量不是数字
+	返回0 代表修改课程容量成功
+5.CourseList.modifyCourseTeachers(String cid, String teachers)
+	返回1 代表课程不存在
+	返回2 代表教师列表不合法
+	返回0 代表修改课程教师列表成功
+6.CourseList.addCourse(String cid, String name, String teachers, String capacity, String time)
+	返回1 代表课程已存在
+	返回2 代表课程信息不合法
+	返回0 代表添加课程成功
